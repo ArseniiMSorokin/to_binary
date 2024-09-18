@@ -5,7 +5,7 @@ public class Main {
         int inp_num = sc.nextInt();
         String out_num = "";
         while (inp_num>0) {
-            out_num=inp_num%2 + out_num;
+            out_num=inp_num%2+out_num;
             inp_num=inp_num/2;
         }
         System.out.println(out_num);
